@@ -29,6 +29,7 @@
 }
 
 .bicicletas-lista h3 {
+  width: max-content;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
