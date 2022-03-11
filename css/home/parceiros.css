@@ -15,14 +15,14 @@
   margin: 0 auto;
 }
 
-.parceiros img {
-  margin: auto;
-}
-
 .parceiros li {
   display: flex;
   padding: 32px;
   border-left: 2px solid var(--cor-2);
+}
+
+.parceiros img {
+  margin: auto;
 }
 
 .parceiros li:first-child,
