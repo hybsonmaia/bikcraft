@@ -51,6 +51,10 @@
   transform: translateX(4px);
 }
 
+#contato .botao {
+  border: none;
+}
+
 @media (max-width: 600px) {
   .botao {
     font-size: 1rem;
