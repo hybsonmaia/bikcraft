@@ -4,10 +4,14 @@
   gap: 20px;
 }
 
+.col-2 {
+  grid-column: span 2;
+}
+
 .form label {
   display: block;
-  font: 600 1rem/1.5 'Poppins', sans-serif;
   margin-bottom: 4px;
+  font: 600 1rem/1.5 'Poppins', sans-serif;
 }
 
 .form input[type='text'],
@@ -16,8 +20,8 @@
   font: 400 1rem/1.5 'Roboto', sans-serif;
   background: var(--cor-1);
   border: 1px solid var(--cor-2);
-  padding: 12px;
   border-radius: 4px;
+  padding: 12px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -29,10 +33,6 @@
   border-color: var(--cor-p1);
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
-}
-
-.col-2 {
-  grid-column: 1 / -1;
 }
 
 @media (max-width: 600px) {
